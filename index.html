@@ -29,7 +29,7 @@
     }).addTo(map);
 
     // Load GeoJSON from GitHub raw URL
-    fetch('https://raw.githubusercontent.com/YOUR_USERNAME/vector-leaflet-map/main/vector_leaflet_map.geojson')
+    fetch('https://raw.githubusercontent.com/e123456789-cyber/vector-leaflet-map/main/vector_leaflet_map.geojson')
         .then(response => response.json())
         .then(data => {
             var geojsonLayer = L.geoJSON(data).addTo(map);
